@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+body{
+	color:white;
+	width:350px;
+	text-align: center;
+	margin:0;
+	font-family: 'Satisfy', cursive;
+	}
+
+footer,header{
+background:-webkit-radial-gradient(#33cccc 30%, #2eb8b8);}	 
+
+header{
+	 padding: 15px 0; }
+	 
+footer{
+	  padding: 25px 0;}
+	
+a{color:white;text-decoration:none;}
+
+a:focus,a:hover{text-decoration:none;color: white;}
+	
+.round{
+	border-radius:20px;}	

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "feel free",
+  "description": "This extension will display greatest Quotes about Women",
+  "version": "1.0",
+  "content_security_policy":  "script-src 'self' https://feelfree.com; object-src 'self'",
+   "incognito": "split",
+   "icons": { "16": "feelfree.png",
+           "48": "feelfree.png",
+          "128": "feelfree.png" },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
+
+  "browser_action": {
+  
+    "default_icon": "feelfree.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+   "https://raw.githubusercontent.com/vishalpolley/vishalpolley.github.io/master/thoughts.json",
+   "activeTab",
+	"tabs"
+  ]
+}
+
+
